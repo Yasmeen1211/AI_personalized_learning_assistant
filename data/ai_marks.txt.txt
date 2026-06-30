@@ -1,0 +1,7 @@
+Artificial Intelligence = 90
+Machine Learning = 40
+Deep Learning = 78
+Natural Language Processing = 95
+Transformers =70
+Computer Vision = 35
+ 

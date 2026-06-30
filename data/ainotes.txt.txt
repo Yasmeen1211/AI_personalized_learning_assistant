@@ -1,0 +1,473 @@
+Artificial Intelligence (AI)
+What is Artificial Intelligence?
+
+Artificial Intelligence
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. These tasks include reasoning, learning, decision-making, problem-solving, understanding language, recognizing images, and more.
+
+AI systems aim to mimic human cognitive abilities using algorithms, data, and computational models.
+
+Goals of AI
+
+The main goals of AI are:
+
+Learning – Acquiring information and rules from data.
+Reasoning – Using logic to solve problems.
+Perception – Understanding images, audio, and sensory input.
+Natural Language Understanding – Understanding human language.
+Decision Making – Choosing optimal actions.
+Automation – Performing tasks without human intervention.
+Types of AI
+1. Narrow AI (Weak AI)
+
+Designed for a specific task.
+
+Examples:
+
+Voice assistants
+Recommendation systems
+Face recognition
+2. General AI (Strong AI)
+
+A theoretical AI capable of performing any intellectual task like humans.
+
+3. Super AI
+
+An advanced hypothetical AI surpassing human intelligence.
+
+Applications of AI
+Healthcare diagnosis
+Self-driving cars
+Virtual assistants
+Fraud detection
+Robotics
+Smart education systems
+Chatbots
+Advantages of AI
+Reduces human effort
+Faster processing
+High accuracy
+Works continuously
+Automates repetitive tasks
+Disadvantages of AI
+Expensive development
+Job displacement concerns
+Lack of emotions
+Data privacy issues
+Dependency on data quality
+Real-World Examples
+OpenAI ChatGPT
+Google Assistant
+Tesla Autopilot
+Netflix recommendations
+Machine Learning (ML)
+What is Machine Learning?
+
+Machine Learning
+
+Machine Learning is a subset of AI that enables computers to learn from data and improve performance without being explicitly programmed.
+
+Instead of writing fixed rules, ML models identify patterns from datasets and make predictions or decisions.
+
+Working of Machine Learning
+Step-by-Step Process
+Collect Data
+Clean and preprocess data
+Select an algorithm
+Train the model
+Test the model
+Deploy the model
+Types of Machine Learning
+1. Supervised Learning
+
+The model learns using labeled data.
+
+Examples:
+
+Spam detection
+House price prediction
+
+Algorithms:
+
+Linear Regression
+Decision Trees
+Random Forest
+SVM
+2. Unsupervised Learning
+
+The model finds hidden patterns in unlabeled data.
+
+Examples:
+
+Customer segmentation
+Clustering
+
+Algorithms:
+
+K-Means
+PCA
+3. Reinforcement Learning
+
+The model learns by interacting with the environment using rewards and punishments.
+
+Examples:
+
+Robotics
+Game playing
+Self-driving cars
+Common ML Algorithms
+Algorithm	Purpose
+Linear Regression	Prediction
+Logistic Regression	Classification
+Decision Tree	Decision making
+Random Forest	Ensemble learning
+KNN	Classification
+SVM	Classification
+Naive Bayes	Probability-based classification
+Applications of ML
+Recommendation systems
+Fraud detection
+Medical diagnosis
+Speech recognition
+Predictive analytics
+Advantages
+Learns automatically from data
+Handles large datasets
+Improves accuracy over time
+Challenges
+Requires quality data
+Computationally expensive
+Risk of overfitting
+Deep Learning (DL)
+What is Deep Learning?
+
+Deep Learning
+
+Deep Learning is a subset of Machine Learning based on Artificial Neural Networks with multiple hidden layers.
+
+It is inspired by the structure and functioning of the human brain.
+
+Deep learning is especially powerful for handling:
+
+Images
+Audio
+Text
+Videos
+Neural Network Basics
+
+A neural network consists of:
+
+Input Layer
+Hidden Layers
+Output Layer
+
+Each neuron processes input using weights and activation functions.
+
+Working of Deep Learning
+Input data is provided.
+Data passes through layers.
+Each layer extracts features.
+Errors are calculated.
+Weights are updated using backpropagation.
+Important Concepts
+1. Epoch
+
+One complete training cycle through the dataset.
+
+2. Batch Size
+
+Number of samples processed at once.
+
+3. Learning Rate
+
+Controls how much weights are updated.
+
+4. Activation Functions
+
+Used to introduce non-linearity.
+
+Examples:
+
+ReLU
+Sigmoid
+Tanh
+Softmax
+Types of Deep Learning Networks
+1. ANN (Artificial Neural Network)
+
+Basic neural network.
+
+2. CNN (Convolutional Neural Network)
+
+Used for image processing.
+
+3. RNN (Recurrent Neural Network)
+
+Used for sequential data.
+
+4. LSTM
+
+Improved RNN for long-term dependencies.
+
+5. GAN
+
+Used for generating images and media.
+
+Applications
+Image recognition
+Speech recognition
+Fake news detection
+Medical imaging
+Autonomous vehicles
+Advantages
+High accuracy
+Automatic feature extraction
+Works well with unstructured data
+Disadvantages
+Requires huge data
+High computational cost
+Difficult to interpret
+Natural Language Processing (NLP)
+What is NLP?
+
+Natural Language Processing
+
+Natural Language Processing is a branch of AI that enables computers to understand, interpret, process, and generate human language.
+
+NLP combines:
+
+Linguistics
+Computer Science
+Machine Learning
+Components of NLP
+1. Natural Language Understanding (NLU)
+
+Understanding human language.
+
+2. Natural Language Generation (NLG)
+
+Generating meaningful text.
+
+NLP Pipeline
+Text Collection
+Tokenization
+Stop Word Removal
+Stemming/Lemmatization
+Feature Extraction
+Model Training
+Important NLP Concepts
+Tokenization
+
+Breaking text into words or sentences.
+
+Stemming
+
+Reducing words to root form.
+
+Example:
+
+playing → play
+Lemmatization
+
+Converting words to meaningful base forms.
+
+Named Entity Recognition (NER)
+
+Identifying names, places, dates, etc.
+
+Part-of-Speech Tagging
+
+Identifying grammar roles.
+
+NLP Techniques
+1. Bag of Words
+
+Represents text using word frequency.
+
+2. TF-IDF
+
+Measures importance of words.
+
+3. Word Embeddings
+
+Dense vector representations of words.
+
+Examples:
+
+Word2Vec
+GloVe
+Applications of NLP
+Chatbots
+Language translation
+Sentiment analysis
+Voice assistants
+Text summarization
+Challenges in NLP
+Ambiguity
+Sarcasm detection
+Multiple languages
+Context understanding
+Transformers
+What are Transformers?
+
+Transformer Neural Network
+
+Transformers are deep learning architectures designed for handling sequential data efficiently using a mechanism called self-attention.
+
+Transformers revolutionized NLP and are now also used in computer vision and multimodal AI systems.
+
+They were introduced in the famous research paper:
+“Attention Is All You Need”.
+
+Why Transformers are Important
+
+Older models like RNNs processed data sequentially, making training slow.
+
+Transformers:
+
+Process data in parallel
+Capture long-range dependencies
+Train faster
+Achieve better accuracy
+Core Components of Transformers
+1. Encoder
+
+Processes input text.
+
+2. Decoder
+
+Generates output text.
+
+3. Self-Attention Mechanism
+
+Helps the model focus on important words.
+
+4. Positional Encoding
+
+Adds sequence information.
+
+Self-Attention Mechanism
+
+Self-attention determines which words are important relative to others.
+
+Example:
+In the sentence:
+“The cat sat on the mat because it was tired.”
+
+The word “it” refers to “cat”.
+
+Transformers learn such relationships effectively.
+
+Transformer Architecture
+
+Main components:
+
+Input Embeddings
+Multi-Head Attention
+Feed Forward Networks
+Layer Normalization
+Residual Connections
+Popular Transformer Models
+1. OpenAI GPT
+
+Generative text models.
+
+2. Google BERT
+
+Bidirectional language understanding.
+
+3. T5
+
+Text-to-text transformer.
+
+4. Vision Transformer (ViT)
+
+Used in computer vision.
+
+Applications of Transformers
+Chatbots
+Text generation
+Translation
+Image captioning
+Code generation
+Advantages
+Parallel processing
+Better context understanding
+State-of-the-art performance
+Limitations
+High memory usage
+Requires huge datasets
+Computationally expensive
+Computer Vision
+What is Computer Vision?
+
+Computer Vision
+
+Computer Vision is a branch of AI that enables computers to understand and analyze images and videos.
+
+It allows machines to “see” and interpret visual information.
+
+How Computer Vision Works
+Image Acquisition
+Preprocessing
+Feature Extraction
+Object Detection/Classification
+Decision Making
+Important Tasks in Computer Vision
+1. Image Classification
+
+Identifying the category of an image.
+
+2. Object Detection
+
+Detecting objects and their locations.
+
+3. Image Segmentation
+
+Dividing images into meaningful regions.
+
+4. Face Recognition
+
+Identifying individuals from images.
+
+5. Optical Character Recognition (OCR)
+
+Extracting text from images.
+
+Computer Vision Techniques
+Traditional Methods
+Edge detection
+Histogram analysis
+Feature extraction
+Deep Learning Methods
+CNN
+YOLO
+R-CNN
+Vision Transformers
+CNN in Computer Vision
+
+Convolutional Neural Networks
+
+CNNs automatically learn image features using:
+
+Convolution layers
+Pooling layers
+Fully connected layers
+
+They are highly effective for image tasks.
+
+Applications of Computer Vision
+Self-driving cars
+Medical imaging
+Surveillance systems
+Facial recognition
+Industrial automation
+
+Advantages
+Automation of visual tasks
+High accuracy in image analysis
+Faster image processing
+Challenges
+Lighting variations
+Occlusion
+Large data requirements
