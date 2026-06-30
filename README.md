@@ -1,2 +1,6 @@
-# AI_personalized_learning_assistant
-Helps users to get personalized study plans, resource recommendations, quiz generation.
+
+# AI Personalized Learning and Study Planner
+
+Run:
+pip install -r requirements.txt
+streamlit run app.py
